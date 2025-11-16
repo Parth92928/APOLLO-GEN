@@ -37,20 +37,6 @@ const Sidebar = () => {
           </div>
         ) : null}
       </div>
-      <div className="bottom">
-        <div className="bottom-item recent-entry">
-          <img src={assets.question_icon}></img>
-          {Extended ? <p>Help</p> : null}
-        </div>
-        <div className="bottom-item recent-entry">
-          <img src={assets.history_icon}></img>
-          {Extended ? <p>Activity</p> : null}
-        </div>
-        <div className="bottom-item recent-entry">
-          <img src={assets.setting_icon}></img>
-          {Extended ? <p>Setting</p> : null}
-        </div>
-      </div>
     </div>
   );
 };

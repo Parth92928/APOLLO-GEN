@@ -77,8 +77,7 @@ const Main = () => {
               placeholder="Enter a prompt here"
             ></input>
             <div>
-              <img src={assets.gallery_icon}></img>
-              <img src={assets.mic_icon}></img>
+             
               {input ? (
                 <img onClick={() => onSent()} src={assets.send_icon}></img>
               ) : null}
